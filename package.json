@@ -1,0 +1,17 @@
+{
+  "name": "ftpclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ruben Vazquez-Chapa",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  },
+  "dependencies": {
+    "ssh2": "^0.5.5"
+  }
+}

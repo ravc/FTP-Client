@@ -1,0 +1,38 @@
+body {
+    background-color: #585353;
+    color: #3cbc8d;}
+input[type=text], input[type=password]{
+    border: none;
+    border-bottom: 2px solid #3cbc8d;
+    background-color: #585353;
+    color: #3cbc8d;
+    margin-top: 5px;}
+input[type=button]{
+    color: #3cbc8d;
+    border: none;
+    background-color: #585353;
+    margin-top: 5px;}
+select{
+    border: 2px solid #3cbc8d;
+    color: #3cbc8d;
+    background-color: #585353;
+    width: 40%;
+    display: inline-block;
+    height: 400px;}
+#remotefiles{
+    margin-left: 5%;}
+#localfiles{
+    margin-left: 2%;}
+#remotedir{
+    margin-left: 10%;
+    width: 30%;}
+#localdir{
+    margin-left: 20%;
+    width: 30%;}
+#upload{
+    margin-left: 3%;
+    position: relative;
+    top: -200px;}
+#download{
+    position: relative;
+    top: -200px;}

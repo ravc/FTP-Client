@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "UTF-8">
+      <link rel="stylesheet" type="text/css" href="./css/style.css">
+      <title>FTP Client</title>
+   </head>
+   <body onload="setup()">
+        <center><form id="conn" action="/">
+            User: <input type="text" name="usr">
+            Password: <input type="password" name="pswd">
+            Server: <input type="text" name="srvr">
+            Port: <input type="text" name="port">
+            <input type="button" onclick="connect()" value="Connect">
+        </form></center>
+        
+        <br>
+            <span><input type="text" name="remotedir" value="/" id="remotedir" onchange="connect()"></span>
+            <span><input type="text" name="localdir" value="/" id="localdir" onchange="localdir()"></span>
+        </br>
+        <br>
+            <span><select id="remotefiles" multiple="multiple" ondblclick="doubleClickRemote()"></select></span>
+            <span><input type="button" value="<<" id="upload"><input type="button" value=">>" id="download" onclick="downloadfile()"></span>
+            <span><select id="localfiles" multiple="multiple" ondblclick="doubleClickLocal()"></select></span>
+        </br>
+        
+        <script type="text/javascript" src="./js/app.js"></script>
+   </body>
+</html>
