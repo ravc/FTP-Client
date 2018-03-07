@@ -1,7 +1,7 @@
 # Node-FTP-Client
-A FTP clinet made in node that is used in electron
+A FTP client made in node that is used in electron
 
-Currently just a file browser
+The directories view does not update when files are sent or received yet
 
 
 use #$ electron main.js
